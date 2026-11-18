@@ -1,0 +1,48 @@
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Profils et sessions de navigateur
+browser_profile/
+chrome_profile/
+chromium_profile/
+playwright_profile/
+user_data/
+user-data/
+profiles/
+sessions/
+auth/
+storage_state.json
+*storage_state*.json
+*.cookies.json
+
+# Logs et fichiers temporaires
+*.log
+logs/
+tmp/
+temp/
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Rapports et captures temporaires
+test-results/
+playwright-report/
+trace.zip
